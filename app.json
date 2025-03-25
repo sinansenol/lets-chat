@@ -9,7 +9,6 @@
         "xmpp"
     ],
     "addons": [
-        "mongolab"
     ],
     "env": {
         "NODE_ENV": {

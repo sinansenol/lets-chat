@@ -18,6 +18,10 @@
         "LCB_SECRETS_COOKIE": {
             "description": "Session cookies are signed with this secret to prevent tampering",
             "generator": "secret"
-        }
+        },
+         "MONGO_URL": {
+        "description": "Your MongoDB connection string (MongoDB Atlas)",
+        "required": true
+      }
     }
 }
